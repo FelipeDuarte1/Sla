@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>O Semeador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/html.css">
+</head>
+
+<body class="ler_texto2">
+  <!-- <div class="logo">
+    <img src="imagens/logo_semeador.png" alt="">
+  </div> -->
+  <!-- <div class="icon">
+        <div class="usericon">
+        </div>
+        <div class="usericon2">
+      </div>
+      </div> -->
+      <div class="container-fluid barra" >
+        <div class="dropdown">
+            <div class="texto_barra">Home</div>
+            <div class="dropdown-content">
+            <a href="index.html">Página principal</a>
+            </div>
+          </div>
+            <div class="dropdown">
+                <div class="texto_barra">Eventos</div>
+                <div class="dropdown-content">
+                <a id="descer6">Páscoa</a>
+                <a id="descer7">Festa da Família</a>
+                <a id="descer8">Festa Caipira</a>
+                <a id="descer9">Semana do Aprendiz</a>
+                <a id="descer10">Festa da Primavera</a>
+                <a id="descer11">Dia Nacional de Ação de Graças/Aniversário da Escola</a>
+                <a id="descer12">Celebração de Natal</a>
+                </div>
+              </div>
+
+            <div class="dropdown">
+                <div class="texto_barra6">Serviços</div>
+                <div class="dropdown-content">
+                    <a href="index3.html">Doar</a>
+                    <a href="index4.html">Projeto Semear</a>
+            <a href="index5.html">Matrículas</a>
+                </div>
+            </div>
+            <div class="texto_barra6" onclick="toggleLogin()">Logar</div> 
+    
+    <div class="login-container" id="loginContainer"> 
+      <div class="close-btn" onclick="toggleLogin()">X</div>
+      <h2>Login</h2> <form> 
+        <input type="text" placeholder="Usuário" required> 
+        <input type="password" placeholder="Senha" required> 
+        <button type="submit">Entrar</button> </form> 
+      </div>
+      <div class="escurecer" id="escurecer"></div>
+
+        </div>
+    <div class="imagem-container">
+        <img src="imagens/semeador_capa.png" alt="Descrição da imagem">
+        <div class="overlay"></div>
+        <div class="texto-centralizado">O Semeador <br><br> Escola Metodista de Educação Especial</div>
+    </div>
+    
+
+        <div>
+            <h1 class="eventos_T">Eventos</h1>
+        </div>
+
+        <div>
+            <h1 class="evento" id="alvo6">
+                Páscoa
+            </h1>
+            <p class="evento_texto">
+A palavra "páscoa", em hebraico, significa "passagem"
+Há muito tempo o povo de Deus foi escravo no Egito e era muito maltratado pelo faraó. Eram
+obrigados a construir palácios e pirâmides enormes. Trabalhavam muitas vezes com fome e sede o dia
+todo, de sol a sol. Teve uma época que o faraó mandou matar todos os meninos que nascessem, mas
+algumas parteiras corajosas conseguiram salvar vários bebês, dentre eles, Moisés, que depois de adulto
+foi chamado por Deus para libertar o povo da escravidão.
+Hoje, na páscoa, celebramos a passagem da escravidão para a libertação, mas também a passagem
+da morte para a vida pois, muitos anos depois, Deus enviou Jesus para libertar todas as pessoas do
+pecado mas, para isso, precisou ser torturado e morto. A boa notícia é que ele ressuscitou, venceu a
+morte e, por isso, sabemos que nós também viveremos eternamente.
+            </p>
+            </div>
+
+            <div class="carousel3">
+                <div class="carousel3-inner">
+                  <div class="carousel3-item active">
+                    <img src="imagens/pascoa1.png" alt="Imagem 1">
+                  </div>
+                  <div class="carousel3-item">
+                    <img src="imagens/pascoa2.png" alt="Imagem 2">
+                  </div>
+                  <div class="carousel3-item">
+                    <img src="imagens/pascoa3.png" alt="Imagem 3">
+                  </div>
+                  <div class="carousel3-item">
+                    <img src="imagens/pascoa4.png" alt="Imagem 4">
+                  </div>
+                </div>
+                <button class="carousel3-control prev3" onclick="prevSlide3()">❮</button>
+                <button class="carousel3-control next3" onclick="nextSlide3()">❯</button>
+              </div>
+
+            <div>
+            <h1 class="evento" id="alvo7">
+                Festa da Família
+            </h1>
+            <p class="evento_texto">
+                
+Família: bem maior, presente de Deus para nossas vidas.
+"Celebrar a família é nos lembrar o porque Deus nos criou e nos chamou para vivermos juntos."
+É saber o porque de estarmos aqui, de procurarmos viver em união e comunhão, de cuidarmos uns
+dos outros, de viver o amor, o respeito, a liberdade, a paz, a harmonia,
+Há uma canção que diz:
+"Família é quem me ama e cuida de mim,
+Família que tem Jesus no coração
+É muito, é muito mais feliz."
+            </p>
+        </div>
+
+        <div class="carousel4">
+            <div class="carousel4-inner">
+              <div class="carousel4-item active">
+                <img src="imagens/familia1.png" alt="Imagem 1">
+              </div>
+              <div class="carousel4-item">
+                <img src="imagens/familia2.png" alt="Imagem 2">
+              </div>
+              <div class="carousel4-item">
+                <img src="imagens/familia3.png" alt="Imagem 3">
+              </div>
+              <div class="carousel4-item">
+                <img src="imagens/familia4.png" alt="Imagem 4">
+              </div>
+            </div>
+            <button class="carousel4-control prev4" onclick="prevSlide4()">❮</button>
+            <button class="carousel4-control next4" onclick="nextSlide4()">❯</button>
+          </div>
+
+        <div>
+            <h1 class="evento" id="alvo8">
+                Festa Caipira
+            </h1>
+            <p class="evento_texto">
+            
+                
+                Caipira é a pessoa que vive na roça e da roça, que planta, cultiva e colhe o alimento que nos
+                sustenta.
+                Nas casas simples, decoradas com fuxicos, toalhas de crochê e colchas de retalho, todos têm direito
+                a um "dedo de prosa" para ouvir um "causo", passar as horas na janela, sentar na soleira da porta.
+                Muitos ainda moram em casas feitas de pau-a-pique e cobertas de palha ou sapé.
+                o modo de vida caipira inclui o fogão a lenha, o café feito no coador de pano, o leite quente
+                ordenhado da vaca, biscoitos de polvilho, rosquinhas, pães de queijo, broas, bolos de fubá, doces em
+                calda, etc. Sem falar nas geleias e licores de frutas.
+                A autêntica música caipira, a "moda de viola", na voz dos violeiros, retrata a vida do homem no
+                campo, a lida na roça, o contato com a natureza, a melancolia e a solidão do caboclo.
+                </p>
+            </div>
+
+            <div class="carousel5">
+                <div class="carousel5-inner">
+                  <div class="carousel5-item active">
+                    <img src="imagens/caipira.png" alt="Imagem 1">
+                  </div>
+                  <div class="carousel5-item">
+                    <img src="imagens/caipira2.png" alt="Imagem 2">
+                  </div>
+                  <div class="carousel5-item">
+                    <img src="imagens/caipira3.png" alt="Imagem 3">
+                  </div>
+                  <div class="carousel5-item">
+                    <img src="imagens/caipira4.png" alt="Imagem 4">
+                  </div>
+                </div>
+                <button class="carousel5-control prev5" onclick="prevSlide5()">❮</button>
+                <button class="carousel5-control next5" onclick="nextSlide5()">❯</button>
+              </div>
+
+            <div>
+                <h1 class="evento" id="alvo9">
+                    Semana do Aprendiz
+                </h1>
+                <p class="evento_texto">
+O aprendizado permeia toda a nossa existência e a educação também acontece de maneira
+informal, com espontaneidade, se desenvolvendo no processo de socialização da pessoa. Essas
+vivências ocorrem na família, no bairro, na igreja, no clube, nos grupos de amigos e familiares e até
+<br><br>
+Mesmo na escola, onde são desenvolvidas aprendizagens como hábitos, atitudes, comportamentos,
+modos de pensar e agir. Mas tudo precisa fazer sentido para a vida. Cora Coralina diz:
+... nada do que vivemos tem sentido, se não tocamos o coração das pessoas.
+Muitas vezes basta ser:
+colo que acolhe, braço que envolve,
+palavra que conforta, silêncio que respeita,
+alegria que contagia, lágrima que corre,
+olhar que acaricia, desejo que sacia,
+amor que promove.
+E isso não é coisa de outro mundo, é o que dá sentido à vida.
+É o que faz com que ela não seja nem curta, nem longa demais,
+mas que seja intensa, verdadeira, pura... Enquanto durar."
+                </p>
+            </div>
+
+            <div class="carousel6">
+                <div class="carousel6-inner">
+                  <div class="carousel6-item active">
+                    <img src="imagens/aprendiz1.png" alt="Imagem 1">
+                  </div>
+                  <div class="carousel6-item">
+                    <img src="imagens/aprendiz2.png" alt="Imagem 2">
+                  </div>
+                  <div class="carousel6-item">
+                    <img src="imagens/aprendiz3.png" alt="Imagem 3">
+                  </div>
+                  <div class="carousel6-item">
+                    <img src="imagens/aprendiz4.png" alt="Imagem 4">
+                  </div>
+                </div>
+                <button class="carousel6-control prev6" onclick="prevSlide6()">❮</button>
+                <button class="carousel6-control next6" onclick="nextSlide6()">❯</button>
+              </div>
+
+            <div>
+                <h1 class="evento" id="alvo10">
+                    Festa da Primavera
+                </h1>
+                <p class="evento_texto">
+                    A primavera, sem dúvida, é uma das estações mais aguardadas e celebradas. O clima é mais ameno
+                    e a natureza se veste com multicores se renovando e encantando dia a dia. As árvores, que estavam
+                    nuas pelo vento e frio do outono-inverno, começam a se vestir com folhas verdes e flores que se
+                    desabrocham numa imensidão de cores e perfumes. Os dias mais longos e o sol suave convidam para
+                    caminhadas, passeios de bicicleta e pique-niques nos verdes parques, oportunidade para recarregar as
+                    energias e viver momentos inesquecíveis com a família e amigos.
+                </p>
+            </div>
+
+            <div class="carousel7">
+                <div class="carousel7-inner">
+                  <div class="carousel7-item active">
+                    <img src="imagens/primavera1.png" alt="Imagem 1">
+                  </div>
+                  <div class="carousel7-item">
+                    <img src="imagens/primavera2.png" alt="Imagem 2">
+                  </div>
+                  <div class="carousel7-item">
+                    <img src="imagens/primavera3.png" alt="Imagem 3">
+                  </div>
+                  <div class="carousel7-item">
+                    <img src="imagens/primavera4.png" alt="Imagem 4">
+                  </div>
+                </div>
+                <button class="carousel7-control prev7" onclick="prevSlide7()">❮</button>
+                <button class="carousel7-control next7" onclick="nextSlide7()">❯</button>
+              </div>
+
+            <div>
+                <h1 class="evento" id="alvo11">
+                    Dia Nacional de Ação de Graças - Aniversário da Escola
+                </h1>
+                <p class="evento_texto">
+O Dia Nacional de Ação de Graças teve início em 1621, quando os ingleses chegaram à América
+do Norte e, em meio à grande fome, os indígenas da região ensinaram a eles a cultivar o milho. Na
+primeira colheita fizeram uma grande festa para agradecer a Deus e, a partir daí, esse dia passou a
+ser celebrado todos os anos se expandindo pelo mundo. No Brasil, a celebração é feita na quarta
+quinta-feira de novembro. <br><br>
+As datas de Ação de Graças e Aniversário da Escola são muito próximas o que propicia uma única
+celebração. Comemorar o aniversário é uma forma de celebrar a vida. É um momento para expressar
+gratidão a Deus pela existência e pela oportunidade de compartilhar momentos especiais com pessoas
+queridas. <br><br>
+A AMAS - O SEMEADOR, desde 1974, está em São Caetano do Sul trabalhando para acolhimento e
+atendimento de qualidade a crianças, adolescentes, jovens e adultos com deficiência.
+Sua missão é promover e articular ações de defesa de direitos, prevenção, orientação e apoio à
+família de cidadãos que requerem cuidados educativos especiais, promovendo uma educação pautada
+em valores éticos e cristãos, de respeito à diversidade e comprometimento com exercício da
+cidadania.
+                </p>
+            </div>
+
+            <div class="carousel8">
+                <div class="carousel8-inner">
+                  <div class="carousel8-item active">
+                    <img src="imagens/aniversario1.png" alt="Imagem 1">
+                  </div>
+                  <div class="carousel8-item">
+                    <img src="imagens/aniversario2.png" alt="Imagem 2">
+                  </div>
+                  <div class="carousel8-item">
+                    <img src="imagens/aniversario3.png" alt="Imagem 3">
+                  </div>
+                  <div class="carousel8-item">
+                    <img src="imagens/aniversario4.png" alt="Imagem 4">
+                  </div>
+                </div>
+                <button class="carousel8-control prev8" onclick="prevSlide8()">❮</button>
+                <button class="carousel8-control next8" onclick="nextSlide8()">❯</button>
+              </div>
+
+            <div>
+                <h1 class="evento" id="alvo12">
+                    Celebração de Natal
+                </h1>
+                <p class="evento_texto">
+"E a luz se fez criança..
+Aquele bebê era diferente, porque nunca deixou de ser criança.
+Mesmo depois de crescido, adorava estórias sobre ovelhas e desertos; sementes e semeadores;
+pardais e lírios silvestres; pombas e serpentes; castelos de areia, vento, chuva e inundações; raposas,
+arados e funerais; caçadores de tesouros e de pérolas preciosas. <br><br>
+Desenvolveu olhos e ouvidos capazes de escutar, não só o sol, a lua e as estrelas, mas também
+outros elemnentos do céu e da terra, que anunciam que o verão está próximdi e o novo mundo de Deus,
+às portas. Esse menino lavrava nossa terra com seu arado amarrado nas estrelas."' (Luiz Carlos Ramos)
+o Natal é celebrado em todo o mundo. Há valores que devemos resgatar e transmitir às próximas
+geracões para a celebração de um Natal cristão. <br><br>
+o espírito de Natal vai muito além da decoração, de presentes e de comidas gostosas, é um tempo
+para revermos a nossa vida interior, para sermos mais solidários, abrirmos o nosso coração à
+reconciliação e estendermos as mãos, desejando aos outros a paz e também recebendo a paz,
+desejando bênçãos e também sendo bênção.
+É o momento de lembrarmos, de maneira muito especial, que Jesus é o "Maravilhoso Conselheiro,
+Deus Forte, Pai da Eternidade e Príncipe da Paz."
+                </p>
+        </div>
+
+        <div class="carousel9">
+            <div class="carousel9-inner">
+              <div class="carousel9-item active">
+                <img src="imagens/natal1.png" alt="Imagem 1">
+              </div>
+              <div class="carousel9-item">
+                <img src="imagens/natal2.png" alt="Imagem 2">
+              </div>
+              <div class="carousel9-item">
+                <img src="imagens/natal3.png" alt="Imagem 3">
+              </div>
+              <div class="carousel9-item">
+                <img src="imagens/natal4.png" alt="Imagem 4">
+              </div>
+            </div>
+            <button class="carousel9-control prev9" onclick="prevSlide9()">❮</button>
+            <button class="carousel9-control next9" onclick="nextSlide9()">❯</button>
+          </div>
+
+        <footer >
+          <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.8811252232526!2d-46.57121928966578!3d-23.644427878654124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4333fd7caa7f%3A0xddaab097e5cf6dae!2sO%20Semeador%20Escola%20Metodista%20-%20AMAS!5e0!3m2!1spt-BR!2sbr!4v1729857817650!5m2!1spt-BR!2sbr" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapadentro"></iframe>
+          </div>
+            <div class="row rodape">
+                <div class="col-md-4 rodape_texto">
+                    <h3 class="p-3 mb-2">Mapa de navegação</h3>
+                    <p class="p-3 mb-2">Home</p>
+                    <p class="p-3 mb-2">Eventos</p>
+                    <p class="p-3 mb-2">Serviços</p>
+                    <p class="p-3 mb-2"></p>
+                </div>
+                <div class="col-md-4 rodape_texto d-flex flex-column">
+                    <h3 class="p-3 mb-2">Redes Socias</h3>
+                    <a href="https://www.instagram.com/metodistaosemeador?igsh=am8zc2hyZDA2cWxp" target="_blank" class="p-3 mb-4 rodape_texto">Instagram</a>
+                    <a href="https://www.facebook.com/escolaosemeador?locale=pt_BR" target="_blank" class="p-3 mb-4 rodape_texto">Facebook</a>
+                </div>
+                <div class="col-md-4 rodape_texto">
+                    <h3 class="p-3 mb-2">Fale Conosco</h3>
+                    <p class="p-3 mb-2">Agende sua visita <br>
+                        Você pode agendar a sua visita pelos telefones:
+                        </p>
+                    <p class="p-3 mb-2">(11) 4238-3100</p>
+                    <p class="p-3 mb-2">(11) 4238-9511</p>
+                    <p class="p-3 mb-2">(11)97366-8766</p>
+                    <h4 class="p-3 mb-2">Horário de atendimento</h4>
+                        <p class="p-3 mb-2">Secretaria: 8h às 16h <br>
+                            Atividades escolares: 8h às 17h</p>
+                </div>
+            </div>
+        </footer>
+            
+        <div class="leitura2" id="lerTexto2">
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+    <script src ="script2.js"></script>
+</body>
+
+</html>
+        

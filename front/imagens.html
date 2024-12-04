@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD de Imagens</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <span>Cadastro de Imagens</span>
+      <button onclick="window.location.href='textos.html'" id="switchToTextos">Ir para CRUD de Textos</button>
+    </div>
+
+    <div class="divTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Página</th>
+            <th>Imagem</th>
+            <th class="acao">Editar</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyImagem">
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Modal para Imagem -->
+    <div class="modal-container" id="modalImagem">
+      <div class="modal">
+        <form id="uploadForm">
+
+          <label for="m-descricao">Descrição</label>
+          <input id="m-descricao" type="text" required />
+
+          <label for="m-pagina">Página</label>
+          <input id="m-pagina" type="text" required />
+
+          <label for="m-imagem-url">URL da Imagem</label>
+          <input id="m-imagem-url" type="text" placeholder="https://exemplo.com/imagem.jpg" />
+
+          <label>Ou arraste/solte uma imagem ou clique para selecionar</label>
+          <div class="drop-zone" id="dropZone">
+            <span>Arraste sua imagem aqui</span>
+            <input type="file" id="m-imagem-file" accept="image/*" />
+          </div>
+
+          <button id="btnSalvarImagem">Salvar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
